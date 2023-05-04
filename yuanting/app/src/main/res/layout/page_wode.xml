@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:src="@drawable/bottommenu_wode"
+        android:layout_width="@dimen/headWid"
+        android:layout_height="@dimen/headWid"
+        android:id="@+id/my_head"
+        android:layout_marginLeft="60dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="@dimen/headWid"
+        android:id="@+id/loginAndname"
+        android:text="@string/login_please"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="查看瓶子"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/scan_pingzi"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="更改信息"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/changemess"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="注        销"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/wode_tickmess"/>
+
+</LinearLayout>

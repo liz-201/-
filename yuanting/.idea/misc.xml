@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/bishe/yuanting/app/src/main/res/drawable-v24/bg_circle.xml" value="0.2601851851851852" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/drawable/bg_radius_border.xml" value="0.32" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24074074074074073" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/drawable/shape_xouxi_bar.xml" value="0.325" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/drawable/youxi_block.xml" value="0.1795" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/activity_aact.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/activity_crazy.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/activity_pingzi_cproduce.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/activity_scan_pingzi.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/activity_wode_register.xml" value="0.3333333333333333" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/bottom_navi_bar.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/chatter.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/fragment_xuexi_section.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/page_pingzi.xml" value="0.3333333333333333" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/page_wode.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/page_xuexi.xml" value="0.3333333333333333" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/page_youxi.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/pingzi_b_produce.xml" value="0.15020263424518743" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/pingzi_content_popwindow.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/pingzi_cproduce.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/pingzi_maplayout.xml" value="0.3333333333333333" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/pingzi_produce.xml" value="0.29528985507246375" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/scan_pingzi_listview_item.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/wode_change.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/wode_forgetpwd.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/wode_logindialog.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/wode_register.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/xuexi_video.xml" value="0.2942708333333333" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/youxi_beforestart.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/layout/youxi_pause_page.xml" value="0.30885416666666665" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/menu/pingzi_topmenu.xml" value="0.1" />
+        <entry key="..\:/bishe/yuanting/app/src/main/res/menu/scanpingzi_top.xml" value="0.30885416666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

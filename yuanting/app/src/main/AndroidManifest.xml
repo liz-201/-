@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lelazy.yuanting">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="31" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/musedash"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/musedash"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yuanting"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".aboutYouxi.pingzi_C_produce"
+            android:exported="false" />
+
+        <service
+            android:name=".aboutYouxi.youxi_bg_service"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".aboutXuexi.pingzi_B_produce"
+            android:exported="false" />
+
+        <service
+            android:name=".aboutPingzi.upload_file_service"
+            android:exported="false" />
+        <!--
+        <service
+            android:name=".upload_pingzi_service"
+            android:enabled="true"
+            android:exported="true" />
+        -->
+        <activity
+            android:name=".aboutXuexi.xuexi_video"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".aboutPingzi.pingzi_A_produce"
+            android:exported="false" />
+
+        <service android:name=".aboutPingzi.Playmusicurl_service" />
+
+        <activity
+            android:name=".aboutWode.wode_change"
+            android:exported="false" />
+        <activity
+            android:name=".aboutWode.wode_forgetpwd"
+            android:exported="true" />
+        <activity
+            android:name=".aboutWode.wode_register"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="Wode_register_open" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".aboutYouxi.youxiplay"
+            android:exported="true" />
+        <activity
+            android:name=".aboutWode.scan_pingzi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

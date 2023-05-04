@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <AutoCompleteTextView
+            android:scrollbars="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="60dp"
+            android:completionThreshold="1"
+            android:id="@+id/xuexi_searchtext"
+            tools:ignore="Suspicious0dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="60dp"
+            android:id="@+id/xuexi_searchbutton"
+            android:background="@drawable/xuexi_search"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <ListView
+            android:id="@+id/xuexi_courselist"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:divider="@color/gray"
+            android:scrollbars="vertical"
+            />
+      <!--  <RelativeLayout
+            android:id="@+id/xuexi_courses"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            />-->
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent">
+            <GridLayout
+                android:scrollbars="vertical"
+                android:columnCount="3"
+                android:id="@+id/xuexi_courses_area"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

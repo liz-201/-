@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#CDCDCD"
+    android:alpha="0.6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="得分为："
+        android:id="@+id/youxi_pause_score"
+        android:layout_above="@id/youxi_pause_play"
+        android:textAlignment="center"
+        android:layout_marginBottom="60dp"
+        android:textSize="40dp"
+        />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/youxi_pause_exit"
+        android:src="@drawable/youxi_pasuse_exit"
+        android:layout_marginLeft="80dp"
+        />
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/youxi_pause_play"
+        android:src="@drawable/youxi_pause_play"
+        android:layout_toRightOf="@id/youxi_pause_exit"
+        android:layout_marginLeft="20dp"
+        />
+</RelativeLayout>

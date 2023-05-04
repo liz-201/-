@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <FrameLayout
+            android:layout_width="1000dp"
+            android:layout_height="1000dp"
+            >
+            <ImageView
+                android:id="@+id/bg_area"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <RelativeLayout
+                android:id="@+id/pingzi_area"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="750dp"
+                />
+        </FrameLayout>
+    </HorizontalScrollView>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/asdfg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ViewFlipper
+        android:id="@+id/pingzi_maps"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ViewFlipper>
+    <RelativeLayout
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitXY"
+            android:background="@drawable/bg_circle"
+            android:src="@drawable/pingzi_previous_map"
+            android:id="@+id/pingzi_premap"
+            android:layout_marginLeft="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/pingzi_nextmap"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_circle"
+            android:scaleType="fitXY"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/pingzi_next_map" />
+    </RelativeLayout>
+
+</FrameLayout>

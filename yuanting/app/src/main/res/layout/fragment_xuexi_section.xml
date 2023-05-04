@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- TODO: Update blank fragment layout -->
+<GridLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:columnCount="4"
+    android:id="@+id/section_grid"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text=""
+        android:textSize="40dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center"
+        />
+</GridLayout>

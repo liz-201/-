@@ -1,0 +1,18 @@
+<resources>
+    <string-array name="sections">
+        <item>asdf</item>
+        <item>fgdju</item>
+        <item>鸡你太美</item>
+    </string-array>
+    <string name="app_name">音乐心情</string>
+    <string name="bottommenu_1">捞瓶子</string>
+    <string name="bottommenu_2">学习</string>
+    <string name="bottommenu_3">游戏</string>
+    <string name="bottommenu_4">我的</string>
+    <string name="login_please">请登录</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="host_ip">192.168.122.219</string>
+    <string name="host_port">11451</string>
+
+</resources>

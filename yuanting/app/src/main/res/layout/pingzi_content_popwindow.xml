@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/bg_radius_border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/pingzicontentclose"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/pingzicontent_close"
+        android:scaleX="0.4"
+        android:scaleY="0.3"
+        android:scaleType="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true"
+        >
+        <TextView
+            android:background="@color/aqua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pingzi_text"
+            />
+    </ScrollView>
+</LinearLayout>
